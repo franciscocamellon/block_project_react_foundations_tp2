@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 63px;
+  background-color: #032541;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 5vw;
+  color: white;
+  width: 100%;
+}
+
+.nav_links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 5vw;
+  flex: 1;
+}
+
+.nav_links a {
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .navigation {
+    margin: 0 15vw;
+  }
+}
